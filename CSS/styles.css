@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Dancing+Script&family=Merriweather+Sans:ital@1&family=Montserrat&family=Outfit:wght@100;200;300;400;500;700&family=Raleway:ital,wght@1,800&family=Red+Hat+Display:wght@500;700;900&display=swap');
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: white;
+    position: absolute;
+    left: auto;
+    margin-top: 7em;
+    max-width: fit-content;
+    min-height: 40rem;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.container_image {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.container_title {
+    font-weight: 900;
+}
+.container_text {
+    font-weight: 500;
+    max-width: 29ch;
+    margin-left: 5em;
+    color: hsl(224, 23%, 55%);
+}
+.explanation_container {
+    background-color: hsl(225, 100%, 98%);
+    max-width: 15rem;
+    position: relative;
+    left: 5rem;
+    padding: 1em;
+    border-radius: 1em;
+    display: flex;
+}
+.subtitle_image {
+    float: left;
+    margin-right: 1rem;
+}
+.subtitle {
+    margin: 0;
+    font-weight: 900;
+}
+.text {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    position: absolute;
+    top: 2rem;
+    left: 4.8rem;
+}
+.link {
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    position: absolute;
+    top: 1.7rem;
+    left: 12rem;
+}
+.button_container {
+    position: absolute;
+    top: 32rem;
+    left: 3.7rem;
+}
+.button {
+    width: 20rem;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(74, 24, 174);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+.order_cancellation_link {
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+    position: absolute;
+    top: 36rem;
+    left: 10rem;
+}
+                
+.attribution { 
+    position: absolute;
+    top: 45rem;
+    left: 4rem;
+    font-size: 11px; text-align: center; }
+.attribution a 
+{ color: hsl(228, 45%, 44%); }
