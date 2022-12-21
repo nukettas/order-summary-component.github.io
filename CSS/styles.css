@@ -81,7 +81,10 @@ body {
     background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
-.order_cancellation_link {
+.button:hover {
+    background-color: #fff;
+}
+.order_cancellation {
     font-weight: 700;
     color: hsl(224, 23%, 55%);
     position: absolute;
@@ -91,8 +94,8 @@ body {
                 
 .attribution { 
     position: absolute;
-    top: 45rem;
-    left: 4rem;
+    top: 55rem;
+    left: 30rem;
     font-size: 11px; text-align: center; }
 .attribution a 
 { color: hsl(228, 45%, 44%); }
